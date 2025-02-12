@@ -1,5 +1,7 @@
 # création d'un site web statique avec Laravel
 
+Par : Sébastien Malo Jean
+
 ## Projet - Servicewebenligne.ca
 
 ### Documentation
