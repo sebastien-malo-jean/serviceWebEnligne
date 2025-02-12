@@ -6,7 +6,7 @@ Par : Sébastien Malo Jean
 
 ### Documentation
 
-Je dois créer un site web statique avec Laravel. J'ai choisi comme thème des services web en ligne.
+Je dois créer un site web statique avec Laravel. J'ai choisi comme thème les services web en ligne.
 
 [Lien vers le code Github](https://github.com/sebastien-malo-jean/serviceWebEnligne)
 
