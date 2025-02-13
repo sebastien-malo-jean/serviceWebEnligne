@@ -12,6 +12,12 @@ Je dois créer un site web statique avec Laravel. J'ai choisi comme thème les s
 
 ### Routes
 
+- '/' : l'index du site web.
+- '/about' : La page À propos de l'entreprise.
+- '/services' : la page des services de l'entreprise.
+- '/contact' : la page pour contacter l'entreprise.
+  - '/contact' : avec la method POST, pour envoyer le formulaire.
+
 ### Lignes de commandes utilisées
 
 #### Création du projet Laravel
@@ -21,6 +27,7 @@ Je dois créer un site web statique avec Laravel. J'ai choisi comme thème les s
 #### Création du fichier CSS
 
 - Theme Bootstrap choisi : [Business Casual](https://startbootstrap.com/theme/business-casual)
+- Background : [wallpaperaccess.com](https://wallpaperaccess.com/download/high-tech-1271992)
 
 #### Création du contrôleur
 

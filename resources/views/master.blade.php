@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8" />
@@ -20,24 +20,24 @@
 <body>
     <header>
         <h1 class="site-heading text-center text-faded d-none d-lg-block">
-            <span class="site-heading-upper text-primary mb-3">A Free Bootstrap Business Theme</span>
-            <span class="site-heading-lower">Business Casual</span>
+            <span class="site-heading-upper text-primary mb-3">une entreprise qui à votre visibilité à coeur</span>
+            <span class="site-heading-lower">Service Web En ligne</span>
         </h1>
     </header>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
         <div class="container">
-            <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+            <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="/contact">Contact</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/">Home</a></li>
-                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/about">About</a></li>
-                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/services">Products</a>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/">Accueil</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/about">À propos</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/services">Services</a>
                     </li>
-                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/contact">Store</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -47,7 +47,7 @@
     <!-- footer -->
     <footer class="footer text-faded text-center py-5">
         <div class="container">
-            <p class="m-0 small">Copyright &copy; Your Website 2023</p>
+            <p class="m-0 small">Copyright &copy; <a href="/">Service Web En Ligne</a> 2025</p>
         </div>
     </footer>
     <!-- Bootstrap core JS-->
