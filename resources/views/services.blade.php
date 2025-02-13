@@ -8,8 +8,8 @@
             <div class="product-item-title d-flex">
                 <div class="bg-faded p-5 d-flex ms-auto rounded">
                     <h2 class="section-heading mb-0">
-                        <span class="section-heading-upper">Blended to Perfection</span>
-                        <span class="section-heading-lower">Coffees & Teas</span>
+                        <span class="section-heading-upper">Solutions sur Mesure</span>
+                        <span class="section-heading-lower">Stratégies Digitales</span>
                     </h2>
                 </div>
             </div>
@@ -17,10 +17,10 @@
                 alt="..." />
             <div class="product-item-description d-flex me-auto">
                 <div class="bg-faded p-5 rounded">
-                    <p class="mb-0">We take pride in our work, and it shows. Every time you order a beverage from us, we
-                        guarantee that it will be an experience worth having. Whether it's our world famous Venezuelan
-                        Cappuccino, a refreshing iced herbal tea, or something as simple as a cup of speciality sourced
-                        black coffee, you will be coming back for more.</p>
+                    <p class="mb-0">Chez Service Web en Ligne, nous élaborons des stratégies digitales personnalisées
+                        pour booster votre visibilité sur Internet. Que vous ayez besoin d'une refonte de site, d'une
+                        optimisation SEO ou d'une gestion de campagnes publicitaires, notre équipe vous accompagne à
+                        chaque étape pour transformer votre présence en ligne en un véritable levier de croissance.</p>
                 </div>
             </div>
         </div>
@@ -32,8 +32,8 @@
             <div class="product-item-title d-flex">
                 <div class="bg-faded p-5 d-flex me-auto rounded">
                     <h2 class="section-heading mb-0">
-                        <span class="section-heading-upper">Delicious Treats, Good Eats</span>
-                        <span class="section-heading-lower">Bakery & Kitchen</span>
+                        <span class="section-heading-upper">Expertise Partagée</span>
+                        <span class="section-heading-lower">Formations & Ateliers</span>
                     </h2>
                 </div>
             </div>
@@ -41,9 +41,10 @@
                 alt="..." />
             <div class="product-item-description d-flex ms-auto">
                 <div class="bg-faded p-5 rounded">
-                    <p class="mb-0">Our seasonal menu features delicious snacks, baked goods, and even full meals
-                        perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever
-                        possible, alongside premium vendors for specialty goods.</p>
+                    <p class="mb-0">Nous croyons fermement à la montée en compétences de nos clients. Nos formations sur
+                        mesure et ateliers interactifs vous offrent les outils nécessaires pour maîtriser
+                        l'environnement digital. Apprenez à optimiser votre présence en ligne et à gérer vos outils
+                        numériques avec assurance et autonomie.</p>
                 </div>
             </div>
         </div>
@@ -55,8 +56,8 @@
             <div class="product-item-title d-flex">
                 <div class="bg-faded p-5 d-flex ms-auto rounded">
                     <h2 class="section-heading mb-0">
-                        <span class="section-heading-upper">From Around the World</span>
-                        <span class="section-heading-lower">Bulk Speciality Blends</span>
+                        <span class="section-heading-upper">Technologies de Pointe</span>
+                        <span class="section-heading-lower">Outils & Solutions Web</span>
                     </h2>
                 </div>
             </div>
@@ -64,10 +65,10 @@
                 alt="..." />
             <div class="product-item-description d-flex me-auto">
                 <div class="bg-faded p-5 rounded">
-                    <p class="mb-0">Travelling the world for the very best quality coffee is something take pride in.
-                        When you visit us, you'll always find new blends from around the world, mainly from regions in
-                        Central and South America. We sell our blends in smaller to large bulk quantities. Please visit
-                        us in person for more details.</p>
+                    <p class="mb-0">Pour vous aider à rester compétitif, nous mettons à votre disposition des outils
+                        innovants et des solutions web performantes. De la création de sites responsives à la gestion de
+                        campagnes marketing, notre expertise vous assure des solutions adaptées aux évolutions du marché
+                        digital, pour une présence en ligne toujours optimale.</p>
                 </div>
             </div>
         </div>

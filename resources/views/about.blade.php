@@ -10,19 +10,22 @@
                 <div class="col-xl-9 col-lg-10 mx-auto">
                     <div class="bg-faded rounded p-5">
                         <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">Strong Coffee, Strong Roots</span>
-                            <span class="section-heading-lower">About Our Cafe</span>
+                            <span class="section-heading-upper">Solutions Digitales sur Mesure</span>
+                            <span class="section-heading-lower">À propos de nous</span>
                         </h2>
-                        <p>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich
-                            coffee sourced from artisan farmers in various regions of South and Central America.
-                            We are dedicated to travelling the world, finding the best coffee, and bringing back
-                            to you here in our cafe.</p>
+                        <p>Chez <strong>Service Web en Ligne</strong>, nous vous offrons des solutions personnalisées
+                            pour améliorer votre visibilité sur Internet. Grâce à notre expertise, vous apprendrez à
+                            optimiser votre présence en ligne et à atteindre un public plus large. Nous vous
+                            accompagnons à chaque étape pour transformer votre présence web en un véritable atout
+                            stratégique, de manière simple et efficace.</p>
                         <p class="mb-0">
-                            We guarantee that you will fall in
-                            <em>lust</em>
-                            with our decadent blends the moment you walk inside until you finish your last sip.
-                            Join us for your daily routine, an outing with friends, or simply just to enjoy some
-                            alone time.
+                            Notre promesse envers vous est de vous accompagner dans votre transformation numérique. Nous
+                            mettons à votre disposition des outils et des formations sur mesure afin de
+                            <em>renforcer</em> votre
+                            présence en ligne, <em>accroître</em> votre visibilité et <em>atteindre</em> vos objectifs
+                            d'affaires. Notre
+                            équipe de professionnels passionnés et expérimentés s'engage à vous guider vers l'autonomie
+                            pour vous démarquer sur le web.
                         </p>
                     </div>
                 </div>
