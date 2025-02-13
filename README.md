@@ -24,4 +24,4 @@ Je dois créer un site web statique avec Laravel. J'ai choisi comme thème les s
 
 #### Création du contrôleur
 
-- php artisan make:controller BlogController
+- php artisan make:controller SWELController

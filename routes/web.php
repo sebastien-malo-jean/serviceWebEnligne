@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SWELController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [SWELController::class, 'index']);
+Route::get('/about', [SWELController::class, 'about']);
+Route::get('/services', [SWELController::class, 'services']);
+Route::get('/contact', [SWELController::class, 'contact']);
+
