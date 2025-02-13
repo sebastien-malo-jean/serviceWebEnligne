@@ -24,7 +24,7 @@ class SWELController extends Controller
     }
     public function contactForm(Request $request)
     {
-        
-        return view('contact', ['data'=>$request]);
+
+        return view('contact', ['data' => $request]);
     }
 }
