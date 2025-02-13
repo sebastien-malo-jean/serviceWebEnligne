@@ -8,13 +8,15 @@
             <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/img/intro.jpg" alt="..." />
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
-                    <span class="section-heading-upper">Fresh Coffee</span>
-                    <span class="section-heading-lower">Worth Drinking</span>
+                    <span class="section-heading-upper">Développez votre présence</span>
+                    <span class="section-heading-lower">En ligne, facilement</span>
                 </h2>
-                <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked
-                    ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning
-                    routine - we guarantee it!</p>
-                <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Visit Us Today!</a></div>
+                <p class="mb-3">Chez Service Web en Ligne, nous vous offrons des solutions personnalisées pour améliorer
+                    votre visibilité sur Internet. Grâce à notre expertise, vous apprendrez à optimiser votre présence
+                    en ligne et à atteindre un public plus large. Nous vous accompagnons à chaque étape pour faire de
+                    votre présence web un atout stratégique, et ce, de manière simple et efficace.</p>
+                <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Contactez-nous dès
+                        aujourd'hui!</a></div>
             </div>
         </div>
     </div>
@@ -25,13 +27,15 @@
             <div class="col-xl-9 mx-auto">
                 <div class="cta-inner bg-faded text-center rounded">
                     <h2 class="section-heading mb-4">
-                        <span class="section-heading-upper">Our Promise</span>
-                        <span class="section-heading-lower">To You</span>
+                        <span class="section-heading-upper">Notre promesse</span>
+                        <span class="section-heading-lower">envers vous</span>
                     </h2>
-                    <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you
-                        with friendly service, a welcoming atmosphere, and above all else, excellent products made with
-                        the highest quality ingredients. If you are not satisfied, please let us know and we will do
-                        whatever we can to make things right!</p>
+                    <p class="mb-0">Chez Service Web en Ligne, nous nous engageons à accompagner nos clients dans leur
+                        transformation numérique. Nous mettons à leur disposition des outils et des formations
+                        personnalisées afin qu'ils puissent améliorer leur présence en ligne, gagner en visibilité et
+                        atteindre leurs objectifs d'affaires. Notre équipe de professionnels passionnés et expérimentés
+                        travaille à chaque étape du processus pour s'assurer que nos clients deviennent autonomes et
+                        réussissent à se démarquer sur le web.</p>
                 </div>
             </div>
         </div>
