@@ -6,7 +6,7 @@
     <div class="container">
         <div class="intro">
             <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/img/intro.jpg" alt="..." />
-            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded ">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">Développez votre présence</span>
                     <span class="section-heading-lower">En ligne, facilement</span>
@@ -15,7 +15,7 @@
                     votre visibilité sur Internet. Grâce à notre expertise, vous apprendrez à optimiser votre présence
                     en ligne et à atteindre un public plus large. Nous vous accompagnons à chaque étape pour faire de
                     votre présence web un atout stratégique, et ce, de manière simple et efficace.</p>
-                <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Contactez-nous dès
+                <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="/contact">Contactez-nous dès
                         aujourd'hui!</a></div>
             </div>
         </div>

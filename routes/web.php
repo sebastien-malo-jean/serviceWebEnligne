@@ -19,3 +19,4 @@ Route::get('/about', [SWELController::class, 'about']);
 Route::get('/services', [SWELController::class, 'services']);
 Route::get('/contact', [SWELController::class, 'contact']);
 
+Route::post('/contact', [SWELController::class, 'contactForm']);

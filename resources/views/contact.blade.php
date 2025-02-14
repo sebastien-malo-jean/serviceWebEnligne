@@ -7,78 +7,54 @@
         <div class="row">
             <div class="col-xl-9 mx-auto">
                 <div class="cta-inner bg-faded text-center rounded">
-                    <h2 class="section-heading mb-5">
-                        <span class="section-heading-upper">Come On In</span>
-                        <span class="section-heading-lower">We're Open</span>
-                    </h2>
-                    <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                        <li class="list-unstyled-item list-hours-item d-flex">
-                            Sunday
-                            <span class="ms-auto">Closed</span>
-                        </li>
-                        <li class="list-unstyled-item list-hours-item d-flex">
-                            Monday
-                            <span class="ms-auto">7:00 AM to 8:00 PM</span>
-                        </li>
-                        <li class="list-unstyled-item list-hours-item d-flex">
-                            Tuesday
-                            <span class="ms-auto">7:00 AM to 8:00 PM</span>
-                        </li>
-                        <li class="list-unstyled-item list-hours-item d-flex">
-                            Wednesday
-                            <span class="ms-auto">7:00 AM to 8:00 PM</span>
-                        </li>
-                        <li class="list-unstyled-item list-hours-item d-flex">
-                            Thursday
-                            <span class="ms-auto">7:00 AM to 8:00 PM</span>
-                        </li>
-                        <li class="list-unstyled-item list-hours-item d-flex">
-                            Friday
-                            <span class="ms-auto">7:00 AM to 8:00 PM</span>
-                        </li>
-                        <li class="list-unstyled-item list-hours-item d-flex">
-                            Saturday
-                            <span class="ms-auto">9:00 AM to 5:00 PM</span>
-                        </li>
-                    </ul>
-                    <p class="address mb-5">
-                        <em>
-                            <strong>1116 Orchard Street</strong>
-                            <br />
-                            Golden Valley, Minnesota
-                        </em>
-                    </p>
-                    <p class="mb-0">
-                        <small><em>Call Anytime</em></small>
-                        <br />
-                        (317) 585-8468
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="page-section about-heading">
-    <div class="container">
-        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/about.jpg" alt="..." />
-        <div class="about-heading-content">
-            <div class="row">
-                <div class="col-xl-9 col-lg-10 mx-auto">
-                    <div class="bg-faded rounded p-5">
-                        <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">Strong Coffee, Strong Roots</span>
-                            <span class="section-heading-lower">About Our Cafe</span>
-                        </h2>
-                        <p>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee
-                            sourced from artisan farmers in various regions of South and Central America. We are
-                            dedicated to travelling the world, finding the best coffee, and bringing back to you here in
-                            our cafe.</p>
-                        <p class="mb-0">
-                            We guarantee that you will fall in
-                            <em>lust</em>
-                            with our decadent blends the moment you walk inside until you finish your last sip. Join us
-                            for your daily routine, an outing with friends, or simply just to enjoy some alone time.
-                        </p>
+                    <div class="my-5">
+                        @isset($data)
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="fw-bolder">Form submission successful!</div>
+                        <p><strong>Name: </strong>{{ $data->name ?? ''}}</p>
+                        <p><strong>Email: </strong>{{ $data->email ?? ''}}</p>
+                        <p><strong>Message: </strong>{{ $data->message ?? ''}}</p>
+                        @else
+                        <p>Vous souhaitez nous contacter ?</p>
+                        <p>Remplissez le formulaire ci-dessous pour nous envoyer un message et nous
+                            vous répondrons dans les plus brefs délais !</p>
+                        <br>
+                        <form id="contactForm" method="post" data-sb-form-api-token="YOUR_API_TOKEN">
+                            @csrf
+                            <div class="form-floating">
+                                <input class="form-control" name="name" id="name" type="text"
+                                    placeholder="Entrez votre nom..." data-sb-validations="required" required />
+                                <label for="name">Votre Nom</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">Vous devez entrer un nom.
+                                </div>
+                            </div>
+                            <div class="form-floating">
+                                <input class="form-control" name="email" id="email" type="email"
+                                    placeholder="Entrez votre adresse email..." data-sb-validations="required,email" />
+                                <label for="email">Addresse email</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">Un adresse email est
+                                    requise.
+                                </div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">L'adresse email n'est pas
+                                    valide.
+                                </div>
+                            </div>
+                            <div class="form-floating">
+                                <textarea name="message" class="form-control" id="message"
+                                    placeholder="Entrez votre message ici..." style="height: 12rem"
+                                    data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">Un message est requis.
+                                </div>
+                            </div>
+                            <!-- Submit Button-->
+                            <button class="btn btn-primary text-uppercase disable" id="submitButton"
+                                type="submit">Send</button>
+                        </form>
+                        @endisset
                     </div>
                 </div>
             </div>

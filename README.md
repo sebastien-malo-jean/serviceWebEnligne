@@ -28,6 +28,7 @@ Je dois créer un site web statique avec Laravel. J'ai choisi comme thème les s
 
 - Theme Bootstrap choisi : [Business Casual](https://startbootstrap.com/theme/business-casual)
 - Background : [wallpaperaccess.com](https://wallpaperaccess.com/download/high-tech-1271992)
+-images : [freepik](https://www.freepik.com/)
 
 #### Création du contrôleur
 
