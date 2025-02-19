@@ -13,10 +13,13 @@
                         <!---->
                         <!-- This is what your users will see when the form-->
                         <!-- has successfully submitted-->
-                        <div class="fw-bolder">Form submission successful!</div>
-                        <p><strong>Name: </strong>{{ $data->name ?? ''}}</p>
-                        <p><strong>Email: </strong>{{ $data->email ?? ''}}</p>
-                        <p><strong>Message: </strong>{{ $data->message ?? ''}}</p>
+                        <div class="fw-bolder">
+                            <p>Votre message à bien été envoyer.</p>
+                            <p><strong>Name: </strong>{{ $data->name ?? ''}}</p>
+                            <p><strong>Email: </strong>{{ $data->email ?? ''}}</p>
+                            <p><strong>Message: </strong>{{ $data->message ?? ''}}</p>
+                            <p>Nous vous répondrons d'ici 24h.</p>
+                        </div>
                         @else
                         <p>Vous souhaitez nous contacter ?</p>
                         <p>Remplissez le formulaire ci-dessous pour nous envoyer un message et nous
